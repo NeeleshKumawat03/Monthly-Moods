@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In this project let's build an **Daily Mood Tracker Application** by applying the concepts we have learned till now. This project allows you to practice the concepts and techniques learned till React Course and apply them in a concrete project.
 
 You will demonstrate your skills by creating an app that will fetch data from an internal server using a component, routing concepts, authentication and authorization, and adding responsiveness to the website
@@ -279,3 +280,6 @@ Returns a response based on the credentials provided
 > - All components you implement should go in the `src/components` directory.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+=======
+# Monthly-Moods
+>>>>>>> 75635df6ec6f8c34f55495ca4ff9f4027ef04e34
