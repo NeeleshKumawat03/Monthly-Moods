@@ -1,0 +1,70 @@
+.emojis {
+  width: 487px;
+  height: 243px;
+  border-radius: 27.29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: 2.03px solid;
+  background-image: linear-gradient(to right, #72687536, #35333300);
+  box-shadow: 6.821591854095459px 6.821591854095459px 16.371822357177734px 0px
+    #51515166 inset;
+  list-style: none;
+  gap: 1rem;
+}
+
+.emojiItem {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.emojiName {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.emoji {
+  align-self: center;
+  width: 32px;
+  height: 32px;
+}
+
+.selectedEmojidesign {
+  width: 56px;
+  height: 56px;
+  box-shadow: 0px 2px 8px 0px #f7f7f712;
+}
+
+@media (max-width: 767px) {
+  .emojis {
+    border: none;
+    width: 328px;
+    height: 116px;
+    margin: auto;
+  }
+  .emojiName {
+    font-family: Inter;
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .emoji {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .selectedEmojidesign {
+    width: 32px;
+    height: 32px;
+    box-shadow: 0px 2px 8px 0px #f7f7f712;
+  }
+}

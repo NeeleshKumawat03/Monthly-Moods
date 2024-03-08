@@ -1,0 +1,44 @@
+.home-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.emoji-data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-clip: #ffbe38;
+}
+
+.home-container-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home-container-mobile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .home-container {
+    display: none;
+  }
+
+  .emoji-container {
+    order: 0;
+  }
+  .calender {
+    order: 1;
+  }
+  .data {
+    order: 2;
+  }
+}
